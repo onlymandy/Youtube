@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color:rgb(255, 223, 228) ;
 }
 .ri-menu-line{
     color: purple;
@@ -58,11 +59,49 @@ body{
 
 
 
-.big-vid img{
+ .big-vid img{ 
     width: 900px;
     height: 500px;
     margin-top: 80px;
     margin-left: 25px;
     border-radius: 20px;
     overflow: hidden;
+}
+
+
+
+
+.video-display {
+    height: 120px;
+    width: 200px;
+    /* position: fixed; */
+    right: 0;
+    border: 5px solid black;
+    background: white;
+}
+
+
+
+.sidebar{
+    margin-top: 130px;
+    margin-left: 50px;
+    /* display: flex; */
+}
+.creator{
+    color: grey;
+    margin-right: 20px;
+}
+.captions{
+    color: white;
+}
+.ui{
+    display: flex;
+    justify-content: center;
+}
+.images{
+    margin-right: 400px;
+    width: 50%;
+    height: 100px;
+    background: url(./images/yo.jpeg);
+    background-size: cover;
 }
