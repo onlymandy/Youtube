@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color:rgb(255, 223, 228) ;
+    background-color:white;
 }
 .ri-menu-line{
     color: purple;
@@ -60,12 +60,13 @@ body{
 
 
  .big-vid img{ 
-    width: 900px;
-    height: 500px;
-    margin-top: 80px;
+    width: 975px;
+    height: 550px;
+    margin-top: 9px;
     margin-left: 25px;
     border-radius: 20px;
     overflow: hidden;
+    background: url(https://youtu.be/uIlHVGTQWxA);
 }
 
 
@@ -105,3 +106,33 @@ body{
     background: url(./images/yo.jpeg);
     background-size: cover;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
